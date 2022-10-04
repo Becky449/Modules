@@ -15,6 +15,10 @@ body {
   width: 50%;
 }
 
+li {
+  font-weight: 600;
+}
+
 .cont ul li {
   display: flex;
   justify-content: space-between;
@@ -23,7 +27,8 @@ body {
   padding: 0 15px;
 }
 
-.navbar a, #copyright {
+.navbar a, 
+#copyright {
   font-weight: 700;
   font-size: 20px;
 }
@@ -33,10 +38,6 @@ body {
   height: 2rem;
   align-items: center;
   cursor: pointer;
-}
-
-li {
-  font-weight: 600;
 }
 
 .cont ul li:nth-child(odd) {
@@ -58,7 +59,7 @@ li {
   overflow: auto;
   max-height: 55vh;
 }
-  
+
 #heading {
   position: fixed;
   top: 100px;
@@ -141,8 +142,7 @@ form h2 {
   bottom: 0;
   left: 0;
   right: 0;
-  width: auto;
-  
+  width: auto; 
 }
 
 .contact {
