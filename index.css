@@ -1,0 +1,158 @@
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/cascadia-code.min.css");
+
+* {
+  font-family: 'poppins', sans-serif;
+}
+
+body {
+  width: 100%;
+}
+
+.cont ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  width: 50%;
+}
+
+.cont ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 0 15px;
+}
+
+.navbar a, #copyright {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.navbar ul li {
+  display: flex;
+  height: 2rem;
+  align-items: center;
+  cursor: pointer;
+}
+
+li {
+  font-weight: 600;
+}
+
+.cont ul li:nth-child(odd) {
+  background: #ccc;
+}
+
+.cont {
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.cont-list {
+  display: none;
+  margin-top: 10.5rem;
+  margin-bottom: 8rem;
+  overflow: auto;
+  max-height: 55vh;
+}
+  
+#heading {
+  position: fixed;
+  top: 100px;
+}
+
+form {
+  width: 44%;
+}
+
+input {
+  font-size: medium;
+  width: 96%;
+  border: 2px solid black;
+  padding: 5px 10px;
+}
+
+button {
+  font-size: medium;
+  float: right;
+  border: solid 2px black;
+  box-shadow: 3px 3px 0 0;
+}
+
+button:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 0 0;
+}
+
+form h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.navbar {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.5rem;
+  border: 2px solid black;
+  margin: 1rem;
+  font-size: 1rem;
+  background: coral;
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 5px;
+}
+
+.divide {
+  width: 2px;
+  height: 10px;
+  background-color: black;
+}
+
+.dateDisplay {
+  position: fixed;
+  top: 4rem;
+  right: 0;
+  width: auto;
+  margin: 0 1rem;
+  background: white;
+  padding: 10px;
+}
+
+.footer {
+  position: fixed;
+  border: 2px solid black;
+  background-color: coral;
+  padding: 0 20px;
+  margin: 15px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: auto;
+  
+}
+
+.contact {
+  margin-top: 10.5rem;
+  display: none;
+  list-style: inside;
+  text-align: center;
+}
+
+.contact ul {
+  display: inline-block;
+  text-align: left;
+}
