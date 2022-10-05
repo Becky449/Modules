@@ -20,9 +20,6 @@
 [Live Demo Link](https://becky449.github.io/Modules/)
 
 
-To get a local copy, run the fllowing command.
-
-- `git clone https://github.com/Becky449/capstone-main.git
 
 ### Prerequisites
 
