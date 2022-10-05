@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Awesome Books</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <a>Awesome Books</a>
+        <ul id="nav-items">
+          <li id="link-list">List</li>
+          <li class="divide"></li>
+          <li id="link-add">Add new</li>
+          <li class="divide"></li>
+          <li id="link-contact">Contact</li>
+        </ul>
+      </nav>
+      <p class="dateDisplay"></p>
+    </header>
+    <div class="cont cont-list">
+      <h1 id="heading">All awesome books</h1>
+      <ul id="lists"></ul>
+    </div>
+    <div class="cont" id="books">
+      <form>
+        <h2>Add a new book</h2>
+        <input type="text" name="title" id="title" placeholder="Title" class="title" required />
+        <br /><br />
+        <input type="text" name="author" id="author" placeholder="Author" class="author" required />
+        <br /><br />
+        <button id="btn">Add</button>
+      </form>
+    </div>
+    <div class="contact">
+      <h2>Contact Information</h2>
+      <p>
+        Do you have a question Just reach out to us  ASAP
+      </p>
+      <ul>
+        <li>Our email: mail@gmail.com</li>
+        <li>0123456789</li>
+        <li>Our address: Streetname 1, 102 City, Country</li>
+      </ul>
+    </div>
+    <footer class="footer">
+      <p id="copyright">&copy; Copyright....</p>
+    </footer>
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
